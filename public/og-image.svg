@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FBF7F4"/>
+  
+  <!-- Decorative corner accent -->
+  <rect x="0" y="0" width="1200" height="8" fill="#581828"/>
+  
+  <!-- Small eyebrow text -->
+  <text x="80" y="120" 
+        font-family="Georgia, serif" 
+        font-size="18" 
+        letter-spacing="4" 
+        fill="#8B3A4F" 
+        font-weight="500">
+    — A SOCIAL PULSE TRACKER
+  </text>
+  
+  <!-- Main title: "Content" in bold, "Pulse" in italic serif -->
+  <text x="80" y="280" 
+        font-family="Georgia, serif" 
+        font-size="140" 
+        font-weight="800" 
+        fill="#1a0a10" 
+        letter-spacing="-4">
+    Content<tspan font-style="italic" font-weight="400" fill="#581828">Pulse</tspan>
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="80" y="340" 
+        font-family="Georgia, serif" 
+        font-size="28" 
+        fill="#6B4048" 
+        font-style="italic">
+    Track, analyze, and predict your content performance.
+  </text>
+  
+  <!-- EKG / heartbeat pulse line across the bottom -->
+  <path d="M 80 480 
+           L 200 480 
+           L 240 480 
+           L 270 430 
+           L 310 530 
+           L 350 410 
+           L 390 500 
+           L 420 480 
+           L 540 480
+           L 580 480
+           L 610 440
+           L 650 520
+           L 690 420
+           L 730 490
+           L 760 480
+           L 1120 480" 
+        stroke="#581828" 
+        stroke-width="4" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Social dots along the pulse line - representing posts/engagement -->
+  <circle cx="200" cy="480" r="7" fill="#C8839B"/>
+  <circle cx="420" cy="480" r="7" fill="#C8839B"/>
+  <circle cx="540" cy="480" r="7" fill="#581828"/>
+  <circle cx="760" cy="480" r="7" fill="#C8839B"/>
+  <circle cx="1120" cy="480" r="10" fill="#581828"/>
+  <circle cx="1120" cy="480" r="16" fill="none" stroke="#581828" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Small label categories at the bottom -->
+  <text x="80" y="580" 
+        font-family="Georgia, serif" 
+        font-size="16" 
+        letter-spacing="3" 
+        fill="#8B3A4F">
+    EDUCATIONAL  ·  PROMOTIONAL  ·  ENTERTAINING  ·  BEHIND-THE-SCENES
+  </text>
+</svg>
